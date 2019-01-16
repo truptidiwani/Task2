@@ -1,4 +1,4 @@
-@media screen and (max-width:600px)
+@media screen and (min-width:320px)
 {
 
 .wrapper{
@@ -88,7 +88,7 @@ color:grey;
 }
 }
 /* desktop */
-@media screen and (min-width:992px)
+@media screen and (max-width:1600px)
 {
     .wrapper{
         padding:20px;
