@@ -1,0 +1,111 @@
+@media screen and (max-width:600px)
+{
+
+.wrapper{
+    padding:20px;
+    background-color:#e6ffff;
+    font: 1em sans-serif; 
+    
+}
+.wrapper-container{
+    padding: 20px;
+    background-color: #84e1e1;
+}
+.header {
+    background-color: rgb(180, 26, 57);
+    padding:20px;
+    font: 1em sans-serif;
+    
+}
+.beauty {
+    padding: 20px;
+    text-decoration-color:lightskyblue; 
+    font: 1em sans-serif;
+    color: white;
+    font:message-box;
+    padding-left:10px;
+    text-align: justify;
+}
+u {    
+border-bottom: 2px dotted white;
+text-decoration: none;
+}
+
+hr{
+    border-color: red;
+}
+.enlightenment{
+   position:absolute;
+   left : 20px;
+   padding-left: 10px;
+   opacity: 0.7;
+   background-color: whitesmoke;
+   text-align: justify;
+   width: 80%;
+   padding: 10px;  
+}
+.about{
+   color: white;
+   text-align:justify;
+   margin-top: 350px;
+}
+.participation{
+   background-color:rgb(180, 26, 57);
+   padding: 20px;
+   text-align: justify;
+   margin-top: 10%;
+   padding-top: 30px;
+}
+.benefits{
+   background-color: whitesmoke;
+   padding: 20px;
+   margin-top: 10px;
+}
+.requirements{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 10px;
+}
+.links{
+   background-color: #F7F971;
+   padding: 15px;
+   width: 40%;
+}
+.selection{
+   background-color:#F7F971;
+   padding: 20px;  
+}
+.selection p{
+   padding: 0px;
+   line-height: 40px;
+   
+}
+.selection a{
+   line-height: 40px;
+}
+span{
+color:grey;
+}
+}
+/* desktop */
+@media screen and (min-width:992px)
+{
+    .wrapper{
+        padding:20px;
+        background-color:#e6ffff;
+        font: 1em sans-serif; 
+        position: relative;   
+    }
+    .grey{
+        left:66.66%;
+        width:33.33%;
+        background-color: grey;
+        position: absolute;
+    }
+    .wrapper-container{
+        padding: 20px;
+        background-color: #84e1e1;
+
+    }
+
+}
